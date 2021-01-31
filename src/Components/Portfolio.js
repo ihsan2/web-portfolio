@@ -90,12 +90,16 @@ const Portfolio = ({ data }) => {
             // marginLeft: "1rem",
             textAlign: "center",
             color: "#fff",
-            backgroundColor: "rgba(29,175,212,0.6)",
+            // backgroundColor: ,
+            backgroundColor: project.link
+              ? "rgba(29,175,212,0.6)"
+              : "rgba(124,124,124,0.6)",
             alignItems: "center",
             cursor: "pointer",
           }}
         >
-          <i className="fa fa-link" style={{ marginRight: 8 }}></i>Link
+          <i className="fa fa-link" style={{ marginRight: 8 }}></i>
+          {project.link ? "Link" : "Private Link"}
         </a>
       </div>
     );
