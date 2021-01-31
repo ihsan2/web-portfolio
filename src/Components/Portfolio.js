@@ -84,6 +84,7 @@ const Portfolio = ({ data }) => {
         </div>
 
         <a
+          target={"_blank"}
           href={project.link}
           style={{
             // marginLeft: "1rem",
