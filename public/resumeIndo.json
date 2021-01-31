@@ -1,0 +1,219 @@
+{
+  "main": {
+    "name": "Nur Ihsan",
+    "occupation": "Mobile Application Developer",
+    "description": "Mobile Application Developer khususnya React Native Developer at Allstars Indonesia",
+    "image": "ihsn.jpeg",
+    "bio": "Nama saya Nur Ihsan, saya seorang Full Stack Developer terutama Front End Mobile Developer. Saat ini saya bekerja di Allstars Indonesia sebagai Mobile Application Developer",
+    "contactmessage": "Silahkan hubungi saya untuk menerima detail lebih lanjut.",
+    "email": "nihsan727@gmail.com",
+    "phone": "+62 82318098743",
+    "address": {
+      "city": "Jakarta Selatan",
+      "state": "DKI Jakarta",
+      "country": "Indonesia",
+      "zip": "12210"
+    },
+    "resumedownload": "http://bit.ly/resume27-ind",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/nihsan27",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/nur-ihsan-408426132/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/ihsan2",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Arkademy",
+        "degree": "Full Stack Developer",
+        "graduated": "Desember 2019 - Januari 2020",
+        "description": "Mempelajari pemrograman tentang pengembang javascript full stack termasuk NodeJs, ExpressJs, ReactJs, React Native untuk mempersiapkan karir sebagai pengembang profesional."
+      },
+      {
+        "school": "Universitas Islam Negeri Alauddin, Makassar",
+        "degree": "Teknik Informatika",
+        "graduated": "September 2015 - September 2019",
+        "description": "Lulus"
+      }
+    ],
+    "work": [
+      {
+        "company": "Allstars Indonesia",
+        "title": "Mobile Application Developer (React Native Developer)",
+        "years": "Februari 2020 - Sekarang",
+        "description": "Bekerja sama dengan Backend Developer dan UI / UX Designer untuk mengembangkan aplikasi seluler Allstars & Allstars Influencer menggunakan React Native & Perform maintenance pada aplikasi Allstars & Allstars Influencer, baik itu memperbaiki bug maupun menambahkan fitur untuk meningkatkan kualitas aplikasi.",
+        "type": "Full-time"
+      },
+      {
+        "company": "Superhand",
+        "title": "Front End Developer (React Native Developer)",
+        "years": "January 2021",
+        "description": "Menambahkan bagian konsultasi dan chat menggunakan firebase realtime di aplikasi Superdai & Melakukan maintenance di aplikasi Superdai.",
+        "type": "Contract Freelance"
+      }
+    ],
+    "skills": [
+      {
+        "name": "React Native",
+        "logo": "react.png"
+      },
+      {
+        "name": "ReactJS",
+        "logo": "react.png"
+      },
+      {
+        "name": "Redux",
+        "logo": "redux.png"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "js.png"
+      },
+      {
+        "name": "ExpressJS",
+        "logo": "express.png"
+      },
+      {
+        "name": "MySQL",
+        "logo": "sql.png"
+      },
+      {
+        "name": "Firebase",
+        "logo": "firebase.png"
+      },
+      {
+        "name": "Git",
+        "logo": "git.png"
+      }
+    ]
+  },
+  "portfolio": {
+    "works": [
+      {
+        "title": "Allstars",
+        "tech": ["React Native"],
+        "thumbnail": "brand.png",
+        "desc": "Allstars Indonesia hadir untuk menghubungkan merek yang Anda miliki, mulai dari bisnis rumahan skala kecil hingga bisnis skala besar, dengan influencer yang tepat untuk mempromosikan produk / layanan dari merek Anda ke publik, meningkatkan kesadaran dan keterlibatan, serta memperluas distribusi informasi merek Anda kepada publik. target pasar baru. Aplikasi untuk Brands.",
+        "id": "brand",
+        "link": "https://play.google.com/store/apps/details?id=id.allstars.brand",
+        "images": [
+          "img1.png",
+          "img2.png",
+          "img3.png",
+          "img4.png",
+          "img5.png",
+          "img6.png",
+          "img7.png",
+          "img8.png"
+        ]
+      },
+      {
+        "title": "Allstars Influencer",
+        "tech": ["React Native"],
+        "thumbnail": "member.png",
+        "desc": "Allstars Indonesia hadir untuk menghubungkan merek yang Anda miliki, mulai dari bisnis rumahan skala kecil hingga bisnis skala besar, dengan influencer yang tepat untuk mempromosikan produk / layanan dari merek Anda ke publik, meningkatkan kesadaran dan keterlibatan, serta memperluas distribusi informasi merek Anda kepada publik. target pasar baru. Aplikasi untuk Influencers.",
+        "id": "member",
+        "link": "https://play.google.com/store/apps/details?id=id.allstars.member",
+        "images": [
+          "img1.png",
+          "img2.png",
+          "img3.png",
+          "img4.png",
+          "img5.png",
+          "img6.png",
+          "img7.png",
+          "img8.png"
+        ]
+      },
+      {
+        "title": "Superdai",
+        "tech": ["React Native", "Firebase"],
+        "thumbnail": "superdai.png",
+        "desc": "Superdai adalah aplikasi yang menghubungkan Ustadz dengan Jamaah. Di aplikasi Superdai saya membuat bagian konsultasi dan chat dengan Realtime Firebase.",
+        "id": "superdai",
+        "link": null,
+        "images": [
+          "img1.png",
+          "img2.png",
+          "img3.png",
+          "img4.png",
+          "img5.png",
+          "img6.png",
+          "img7.png",
+          "img8.png",
+          "img9.png"
+        ]
+      },
+      {
+        "title": "Lets Talk",
+        "tech": ["React Native", "Firebase"],
+        "thumbnail": "talk.png",
+        "desc": "Lets Talk adalah aplikasi mobile yang dapat digunakan untuk chat dan melacak lokasi teman secara realtime.",
+        "id": "talk",
+        "link": "https://github.com/ihsan2/LetsTalk---Chat-Realtime",
+        "images": ["img1.png", "img2.png", "img3.png", "img4.png", "img5.png"]
+      },
+      {
+        "title": "Kebon.id",
+        "tech": ["React Native", "ExpressJS"],
+        "thumbnail": "kebon.png",
+        "desc": "Aplikasi Kebon.Id merupakan aplikasi mobile e-commerce sederhana yang dapat bergerak di bidang pertanian dimana sasarannya adalah para petani yang dapat menjual produknya melalui aplikasi ini dan target pembelinya adalah masyarakat yang tidak ingin antri di pasar hanya melalui aplikasi barang bisa dikirim sesuai prosedur.",
+        "id": "kebon",
+        "link": "https://github.com/ihsan2/Frontend-Kebonid",
+        "images": ["img1.png", "img2.png", "img3.png", "img4.png"]
+      },
+      {
+        "title": "Hiring Mobile",
+        "tech": ["React Native", "ExpressJS"],
+        "thumbnail": "hiring.png",
+        "desc": "Hiring Mobile adalah aplikasi mobile yang dapat memfasilitasi dan menghubungkan antara pemberi kerja / perusahaan dan pencari kerja atau engineer.",
+        "id": "hiring",
+        "link": "https://github.com/ihsan2/Hiring-Mobile",
+        "images": ["img1.png", "img2.png", "img3.png", "img4.png", "img5.png"]
+      },
+      {
+        "title": "MovieApp",
+        "tech": ["React Native"],
+        "thumbnail": "movie.png",
+        "desc": "Movie App adalah aplikasi Mobile yang dapat digunakan untuk melihat daftar & detail dari film dan aktornya. Pengguna yang dapat mencari film dan aktor.",
+        "id": "movie",
+        "link": "https://github.com/ihsan2/MovieApp",
+        "images": [
+          "img1.png",
+          "img2.png",
+          "img3.png",
+          "img4.png",
+          "img5.png",
+          "img6.png",
+          "img7.png",
+          "img8.png"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Naz must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
