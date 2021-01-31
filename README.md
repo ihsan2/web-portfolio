@@ -24,7 +24,7 @@ Here is the link to download zip 👉
 
 #### All Credits Goes to Tim Baker <a href='https://github.com/tbakerx/react-resume-template'>Original Repo</a>
 
-#### All Credits Goes to Clever Programmer Team <a href='#### All Credits Goes to Tim Baker <a href='https://github.com/tbakerx/react-resume-template'>Clever Programmer Repo</a>'>Original Repo</a>
+#### Credits Goes to Clever Programmer Team <a href='#### All Credits Goes to Tim Baker <a href='https://github.com/tbakerx/react-resume-template'>Clever Programmer Repo</a>
 
 HTML Design Template
 <a href="https://www.styleshout.com/free-templates/ceevee/">Ceevee Template by Styleshout</a>
