@@ -17,7 +17,7 @@
   Here is the link to download zip 👉
   <a href='https://github.com/ihsan2/web-portfolio'>HERE</a>
 - Open the folder in VS Code
-- Edit <code>public/resumeData.json</code> or <code>public/resumeIndo.json</code> and add your personal details and projects
+- Edit <code>public/resumeDataEng.json</code> or <code>public/resumeDataIdn.json</code> and add your personal details and projects
 - Open terminal in VS Code
 - RUN <code>npm init</code> , this command can be used to set up a new or existing npm package
 - RUN <code>npm install</code> , this command pulls out all the require node modules

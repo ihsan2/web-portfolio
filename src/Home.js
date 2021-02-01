@@ -15,18 +15,18 @@ class Home extends Component {
     super(props);
     this.state = {
       foo: "bar",
-      resumeData: {},
-      resumeIndo: {},
+      resumeDataEng: {},
+      resumeDataIdn: {},
     };
   }
 
-  getResumeData() {
+  getResumeDataEng() {
     $.ajax({
-      url: "/resumeData.json",
+      url: "/resumeDataEng.json",
       dataType: "json",
       cache: false,
       success: function (data) {
-        this.setState({ resumeData: data });
+        this.setState({ resumeDataEng: data });
       }.bind(this),
       error: function (xhr, status, err) {
         console.log(err);
@@ -35,13 +35,13 @@ class Home extends Component {
     });
   }
 
-  getResumeIndo() {
+  getResumeDataIdn() {
     $.ajax({
-      url: "/resumeIndo.json",
+      url: "/resumeDataIdn.json",
       dataType: "json",
       cache: false,
       success: function (data) {
-        this.setState({ resumeIndo: data });
+        this.setState({ resumeDataIdn: data });
       }.bind(this),
       error: function (xhr, status, err) {
         console.log(err);
@@ -51,24 +51,34 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    this.getResumeData();
-    this.getResumeIndo();
+    this.getResumeDataEng();
+    this.getResumeDataIdn();
   }
 
   render() {
     const lng = this.props.lang;
-    const { resumeIndo, resumeData } = this.state;
+    const { resumeDataIdn, resumeDataEng } = this.state;
     return (
       <div className="App">
-        <Header data={lng === "eng" ? resumeData.main : resumeIndo.main} />
-        <About data={lng === "eng" ? resumeData.main : resumeIndo.main} />
-        <Resume data={lng === "eng" ? resumeData.resume : resumeIndo.resume} />
+        <Header
+          data={lng === "eng" ? resumeDataEng.main : resumeDataIdn.main}
+        />
+        <About data={lng === "eng" ? resumeDataEng.main : resumeDataIdn.main} />
+        <Resume
+          data={lng === "eng" ? resumeDataEng.resume : resumeDataIdn.resume}
+        />
         <Portfolio
-          data={lng === "eng" ? resumeData.portfolio : resumeIndo.portfolio}
+          data={
+            lng === "eng" ? resumeDataEng.portfolio : resumeDataIdn.portfolio
+          }
         />
         {/* <Testimonials data={this.state.resumeData.testimonials}/> */}
-        <Contact data={lng === "eng" ? resumeData.main : resumeIndo.main} />
-        <Footer data={lng === "eng" ? resumeData.main : resumeIndo.main} />
+        <Contact
+          data={lng === "eng" ? resumeDataEng.main : resumeDataIdn.main}
+        />
+        <Footer
+          data={lng === "eng" ? resumeDataEng.main : resumeDataIdn.main}
+        />
       </div>
     );
   }
