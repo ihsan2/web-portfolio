@@ -202,6 +202,22 @@
           "img7.png",
           "img8.png"
         ]
+      },
+      {
+        "title": "Manre Bisnis",
+        "tech": ["React Native"],
+        "thumbnail": "manre.png",
+        "desc": "Manre Bisnis is one of the services of PT Manre Nex Expresi, Manre Bisnis is a technology startup company from Indonesia that focuses on culinary especially food and recipes, Manre Bisnis offers an education-based learning platform online and offline or face-to-face, through interactive video tutorials by mentors best culinary by placing an order on the mobile and computer applications.",
+        "id": "manre",
+        "link": "https://play.google.com/store/apps/details?id=com.zabarger",
+        "images": [
+          "img1.png",
+          "img2.png",
+          "img3.png",
+          "img4.png",
+          "img5.png",
+          "img6.png"
+        ]
       }
     ]
   },
